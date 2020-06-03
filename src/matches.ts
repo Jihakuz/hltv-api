@@ -155,7 +155,7 @@ export default class Matches {
         normalizeWhitespace: true,
       })
 
-      const allContent = $('.upcoming-matches .match-day > a')
+      const allContent = $('.upcoming-matches .match-day .a-reset');
 
       const returnArr: any[] = []
 
